@@ -41,15 +41,15 @@ nav {
 }
 
 .container-logo-links {
-  width: 42%;
+  width: 90%;
   display: flex;
-  justify-content: space-between;
+  gap: 50px;
 }
 
 .links {
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   gap: 20px;
 }
 
