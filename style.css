@@ -79,6 +79,11 @@ a {
   cursor: pointer;
 }
 
+.get-started-btn>button:hover {
+  background-color: white;
+  color: var(--secondColor);
+}
+
 /* End Section (A) Navbar */
 
 /* Start Section (A) Info Home */
@@ -227,7 +232,7 @@ main {
   border-radius: 5px;
 }
 
-.circle-icon{
+.circle-icon {
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -238,18 +243,17 @@ main {
   box-shadow: 0 0 0 5px rgba(255, 62, 101, 0.106);
 }
 
-.circle-icon.blue{
+.circle-icon.blue {
   background-color: #2eacfc;
   box-shadow: 0 0 0 5px rgba(46, 172, 252, 0.106);
 
 }
 
-.circle-icon.green{
+.circle-icon.green {
   background-color: #33c956;
   box-shadow: 0 0 0 5px rgba(51, 201, 86, 0.106);
 
 }
-
 
 .details>.text>h3 {
   color: white;
@@ -273,8 +277,81 @@ main {
   width: 80%;
 }
 
-
 /* End Features */
+
+/* Start Download */
+.download-container {
+  background-color: var(--mainColor);
+  display: flex;
+  flex-direction: column;
+  padding: var(--mainPadding);
+  gap: 30px;
+}
+
+.download-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.download-details>p:first-child {
+  color: var(--secondColor);
+  font-size: 14px;
+}
+
+.download-details>p:nth-child(3) {
+  color: var(--secondFontColor);
+  font-size: 14px;
+}
+
+.download-btn {
+  display: flex;
+  gap: 15px;
+}
+
+.iOS-btn-container {
+  background-color: var(--fontColor);
+  color: white;
+}
+
+.android-btn-container {
+  border: 2px solid var(--fontColor);
+  background-color: white;
+}
+
+.iOS-btn-container,
+.android-btn-container {
+  display: flex;
+  align-items: center;
+  padding: 10px 30px 10px 20px;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.iOS-btn-container>button {
+  color: white;
+}
+
+.android-btn-container>button {
+  color: var(--fontColor);
+}
+
+.iOS-btn-container>button,
+.android-btn-container>button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  text-align: start;
+}
+
+.iOS-btn-container>button>span,
+.android-btn-container>button>span {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+/* End Download */
+
 /* Start Footer */
 footer {
   background-color: var(--mainColor);
