@@ -197,6 +197,153 @@ main {
 
 /* End Section (A) Info Home */
 
+/* Start Services */
+.service-container {
+  padding: 80px var(--mainPadding);
+}
+
+.service {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.information>p {
+  margin: 10px 0 50px;
+  color: var(--secondFontColor);
+}
+
+.all-features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(3, auto);
+  gap: 30px;
+}
+
+.grid-container>div {
+  border: 1px solid var(--placeholderColor);
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.grid-container .bi {
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+  border-radius: 50%;
+  fill: white;
+}
+
+.grid-container .bi-lightning-fill {
+  background-color: #2facfc;
+}
+
+.grid-container .bi-house-fill {
+  background-color: #ea4d89;
+}
+
+.grid-container .bi-link-45deg {
+  background-color: #3679ff;
+}
+
+.grid-container .bi-bell-fill {
+  background-color: #f67842;
+}
+
+.grid-container .bi-gear-fill {
+  background-color: #6b88f7;
+}
+
+.grid-container .bi-lock-fill {
+  background-color: #3bb094;
+}
+
+.feature-btn {
+  display: flex;
+  align-items: center;
+  color: var(--secondFontColor);
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.grid-container>div>p:first-of-type {
+  font-weight: bold;
+  margin: 20px 0 10px 0;
+  font-size: 18px;
+}
+
+.grid-container>div>p:nth-of-type(2) {
+  color: var(--secondFontColor);
+}
+
+.marketing-container {
+  background-color: var(--mainColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  height: 60vh;
+  overflow: hidden;
+  gap: 30px;
+}
+
+.marketing-container>img {
+  margin-top: 25vh;
+  height: 80vh;
+}
+
+.make-marketing>p:first-child {
+  color: var(--secondColor);
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.make-marketing>h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.make-marketing>p:nth-of-type(2) {
+  color: var(--secondFontColor);
+  margin-bottom: 15px;
+}
+
+.make-marketing {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.care-choose {
+  display: flex;
+  gap: 30px;
+}
+
+.care-design,
+.choose-app {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.care-choose .bi-check-lg {
+  fill: white;
+  background-color: #32c36a;
+  margin-top: 5px;
+}
+
+/* End Services */
+
 /* Start Features */
 .container-features {
   background-color: var(--fontColor);
@@ -769,7 +916,8 @@ main {
   margin-top: 40px;
 }
 
-.first-line, .second-line {
+.first-line,
+.second-line {
   display: flex;
   gap: 30px;
 }
