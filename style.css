@@ -306,6 +306,7 @@ main {
   color: var(--secondColor);
   font-size: 15px;
   margin-bottom: 10px;
+  font-weight: 500;
 }
 
 .make-marketing>h1 {
