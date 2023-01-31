@@ -1,6 +1,6 @@
 # Appie
 
-A HTML & CSS project that aims to create a simple, user-friendly application.
+A Responsive HTML & CSS project that aims to create a simple, user-friendly application.
 
 ## Getting Started
 
@@ -26,3 +26,9 @@ https://github.com/MuhammedMagdyy/Appie.git
 
 - HTML
 - CSS
+  * FlexBox
+  * Grid
+- Bootstrap icons
+
+## Video
+https://user-images.githubusercontent.com/60513866/215768707-4700ceb9-2853-4627-b6b1-2a209fdcc498.mp4
