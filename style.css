@@ -1344,6 +1344,7 @@ footer section:nth-child(3) {
   .review-container {
     flex-direction: column;
     text-align: center;
+    padding: 30px;
   }
 
   .section-reviewer {
